@@ -1,0 +1,94 @@
+$font-one: 'Oswald', sans-serif;
+$font-two: 'Playfair Display', serif;
+$font-three: 'Sansita Swashed', cursive;
+
+
+
+body {
+    margin: 0;
+
+    header {
+        color: white;
+        background: black;
+
+        nav { 
+            
+            .container {
+                
+                .nav-wrapper {
+                    padding-top: 10px;
+                    
+                    .logo { 
+                        font-family: $font-three;
+                        font-size: 30px;
+                        color: gold;
+
+                        p {
+                            margin: 0;
+                        }
+                    }
+
+                    .menu { 
+                        padding-top: 10px;
+
+                        ul {
+                            margin: 0;
+
+                            li { 
+                                display:inline-block;
+                                padding: 0 25px;
+                                
+                                a { 
+                                    text-decoration: none;
+                                    color: inherit;
+                                    font-family: $font-one;
+                                    font-size: 18px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .header-title { 
+            margin-top: 90px;
+            
+            h1, h2 { 
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 120px;
+                font-family: $font-one;
+                font-weight: bold;
+                margin-top: 30px;
+            }
+
+            h2 {
+                font-size: 45px;
+                font-family: $font-two;
+                font-style: italic;
+                margin-bottom: 30px;
+            }
+
+            .wraper-header { 
+                display: flex;
+                padding-bottom: 250px;
+                
+                .btn {
+                    border: solid 2px rgb(244, 199, 108);
+                    border-radius: 5px;
+                    padding: 25px 70px;
+                    background-color: rgb(244, 199, 108);
+                    text-align: center;
+                    margin: auto;
+                    color: white;
+                    text-decoration: none;
+                    font-size:  25px;
+                }
+            }
+        }
+    }
+}
