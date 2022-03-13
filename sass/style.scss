@@ -179,7 +179,8 @@ body {
         }
         
         .container {
-            padding-bottom: 120px;
+            padding-bottom: 30px;
+
             .row {
 
                 .portfolio-wrap {
@@ -224,5 +225,53 @@ body {
                 }
             }
         }
+    }
+
+    footer {
+        padding: 15px 0;
+
+        .container {
+            
+            .row {
+
+                .copyright {
+                    display: flex;
+
+                    p {
+                        text-align: center;
+                        margin: auto;
+                    }
+                }
+
+                .social-media {
+                    
+                    ul {
+                        padding-left: 120px;
+                        li {
+                            display: inline-block;
+                            margin-right: 15px;
+
+                            a { 
+                                text-decoration: none;
+                                i { 
+                                    color: white;
+                                    border: solid 2px black;
+                                    background-color: black;
+                                    border-radius: 50%;
+                                    font-size: 20px;
+                                    text-align: center;
+                                    display: inline-block;
+                                    width: 50px;
+                                    height: 50px;
+                                    padding: 15px;
+                                
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
     }
 }
