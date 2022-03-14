@@ -235,7 +235,7 @@ body {
         
         .container {
             padding-top: 15px;
-            padding-bottom: 30px;
+            padding-bottom: 15px;
             
             .row {
                 position: relative;
@@ -255,12 +255,14 @@ body {
                     ul {
                         margin: auto;
                         padding: 0;
+                        
                         li {
                             display: inline-block;
                             margin-right: 15px;
 
                             a { 
                                 text-decoration: none;
+                                
                                 i { 
                                     color: white;
                                     border: solid 2px black;
@@ -272,7 +274,7 @@ body {
                                     width: 50px;
                                     height: 50px;
                                     padding: 15px;
-                                
+
                                 }
                             }
                         }
@@ -280,6 +282,5 @@ body {
                 }
             }
         }
-
     }
 }
