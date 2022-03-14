@@ -239,18 +239,17 @@ body {
             
             .row {
                 position: relative;
+                
                 .copyright {
                     display: flex;
 
                     p {
                         text-align: center;
                         margin: auto;
-                        padding-top:15px;
                     }
                 }
 
                 .social-media {
-                    position: absolute;
                     display: flex;
                 
                     ul {
