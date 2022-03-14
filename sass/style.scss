@@ -2,7 +2,11 @@ $font-one: 'Oswald', sans-serif;
 $font-two: 'Playfair Display', serif;
 $font-three: 'Sansita Swashed', cursive;
 
-
+@media (max-width:780px){
+    .menu {
+        display: none;
+    }
+}
 
 body {
     margin: 0;
